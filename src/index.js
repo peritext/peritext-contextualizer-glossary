@@ -1,5 +1,5 @@
-export {default as metadata} from './metadata';
-export {default as InlineDynamic} from './InlineDynamic';
-export {default as InlineStatic} from './InlineStatic';
+import InlineComponent from './Inline';
+import metadata from './meta';
 
-export const defaultCss = '';
+export const Inline = InlineComponent;
+export const meta = metadata;
