@@ -1,7 +1,7 @@
 {
   "name": "peritext-contextualizer-glossary",
   "version": "0.1.0",
-  "description": "Peritext default gglossary contextualizer",
+  "description": "Peritext default glossary contextualizer",
   "main": "dist/index.js",
   "scripts": {
     "build": "rm -rf dist; mkdir dist; babel src -d dist",
