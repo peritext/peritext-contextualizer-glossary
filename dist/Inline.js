@@ -38,7 +38,7 @@ const Inline = ({
 };
 
 Inline.contextTypes = {
-  useGlossary: _propTypes.default.boolean
+  useGlossary: _propTypes.default.bool
 };
 var _default = Inline;
 exports.default = _default;
